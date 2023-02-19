@@ -12,6 +12,7 @@ void main()
 		cout << "Выберите учетную запись\n";
 		cout << "1 - Пользователи:\n";
 		cout << "2 - Администратор:\n";
+		cout << "0 - Выход: \n";
 		cin >> MainMenu;
 		cin.ignore();
 		switch (MainMenu) {
